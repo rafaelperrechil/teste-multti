@@ -1,0 +1,295 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Roboto";
+  background-color: #e5e5e5;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+main {
+  box-shadow: 0px 4px 4px rgba(245, 245, 245, 0.25);
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 25px;
+}
+main .actions {
+  text-align: right;
+  margin: 10px 0 50px;
+}
+main .actions a {
+  color: #555555;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 700;
+}
+main section {
+  width: 1200px;
+  margin: 0 auto;
+}
+main section > .header {
+  margin-bottom: 19px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+main section > .header > div{width: 50%;}
+main section .header > div h1 {
+  color: #555555;
+  font-size: 36px;
+  font-weight: 900;
+}
+main section .header > div span {
+  font-size: 18px;
+  margin-top: 5px;
+  display: inline-block;
+}
+main section .header > div.search {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+main section .header > div.search .group {
+  margin: 0 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+main section .header > div.search .group label {
+  font-size: 10px;
+  font-weight: 700;
+  margin-bottom: 2px;
+  color: #555;
+}
+select,
+input {
+  background: #ffffff;
+  border: 1px solid #ed1450;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 2px 7px;
+  color: #ed1450;
+  font-size: 11px;
+}
+.search input[type='text']{width: 150px;}
+.search input[type='date']{width: 129px;}
+
+.react-tabs__tab {
+  color: #a8a9ad;
+  font-size: 15px;
+  font-weight: 400;
+  margin: 0 25px;
+}
+.react-tabs__tab:first-child {
+  margin: 0;
+}
+.react-tabs__tab--selected {
+  border: none;
+  border-bottom: 4px solid #ed1450;
+  color: #ed1450;
+}
+
+.grid > .header {
+  display: grid;
+  grid-template-columns: 20% 30% 20% 20% 8%;
+  grid-gap: 4px;
+  box-sizing: border-box;
+  padding: 15px;
+}
+
+.grid > .header div  {
+  color: #000;
+  font-size: 15px;
+  font-weight: 700;
+}
+.grid > .header div  a{color: #000;}
+.grid > .header div:last-child {
+  text-align: center;
+}
+.grid > .content .item {
+  display: grid;
+  grid-template-columns: 20% 30% 20% 20% 8%;
+  grid-gap: 4px;
+  border: 1px solid #f3f4f8;
+  box-sizing: border-box;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 7px;
+}
+.grid > .content .item:hover {
+  background-color: #f3f4f8;
+}
+.grid > .content .item div {
+  font-size: 12px;
+  color: #555;
+  text-transform: lowercase;
+}
+.grid > .content .item div::first-letter {
+  text-transform: uppercase;
+}
+.grid > .content .item div.paid {
+  color: #8ac64b;
+  font-weight: 700;
+}
+.grid > .content .item div.late {
+  color: #ee5c5c;
+  font-weight: 700;
+}
+.grid > .content .item div.overcome {
+  font-weight: 700;
+}
+
+.grid > .content .item div:last-child {
+  text-align: center;
+}
+.grid > .content .item div a {
+  color: #a5a5a5;
+  margin-left: 15px;
+  font-size: 15px;
+}
+
+.grid > .content .total {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+.grid > .content .total > div {
+  margin: 0 30px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+main section .footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+main section .footer span.total {
+  color: #ed1450;
+  font-size: 12px;
+  font-weight: 400;
+}
+main section .footer ul.pagination {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+main section .footer ul.pagination li {
+  padding: 7px 10px;
+  border-top: 1px solid #a8a9ad;
+  border-bottom: 1px solid #a8a9ad;
+  border-left: 1px solid #a8a9ad;
+}
+main section .footer ul.pagination li:hover {
+  background-color: #ed1450;
+}
+main section .footer ul.pagination li:hover a {
+  color: #fff;
+}
+main section .footer ul.pagination li:first-child {
+  border-radius: 10px 0 0 10px;
+}
+main section .footer ul.pagination li:last-child {
+  border-right: 1px solid #a8a9ad;
+  border-radius: 0 10px 10px 0;
+}
+main section .footer ul.pagination li.selected {
+  background-color: #ed1450;
+}
+main section .footer ul.pagination li.selected a {
+  color: #fff;
+}
+main section .footer ul.pagination li a {
+  color: #ed1450;
+}
+
+@media screen and (max-width: 1440px) {
+  header nav {
+    width: 68%;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  header nav {
+    width: 57%;
+  }
+  main section {
+    width: 100%;
+  }
+  main section > .header > div:first-child {
+    width: 76%;
+  }
+  main section > .header > div.search {
+    width: 24%;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  input[type="date"] {
+    width: 184px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+}
+
+@media screen and (max-width: 500px) {
+  header nav {
+    display: none;
+  }
+  main section > .header {
+    flex-direction: column;
+  }
+  main section > .header > div {
+    width: 100% !important;
+  }
+  main section > .header > div.search {
+    flex-direction: column;
+    height: inherit;
+    align-items: flex-start;
+  }
+  main section .header > div h1 {
+    font-size: 22px;
+  }
+  main section .header > div span {
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  main section .header > div.search .group {
+    margin: 0 7px 14px 0;
+  }
+  main section .header > div.search .from {
+  }
+  .react-tabs__tab {
+    margin: 0;
+  }
+  .grid > .header div a {
+    font-size: 10px;
+  }
+  .grid > .content .item div {
+    font-size: 11px;
+  }
+  ul.pagination li {
+    padding: 2px 7px !important;
+  }
+  ul.pagination li a {
+    font-size: 12px;
+  }
+  main section .footer {
+    flex-direction: column;}
+    main section .footer span.total {margin: 20px 0;}
+}

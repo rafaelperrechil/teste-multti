@@ -1,0 +1,67 @@
+{
+  "bills": [
+    {
+      "id": 1,
+      "duedate": "2021-12-04",
+      "name": "advando gomes",
+      "amount": 1000,
+      "status": "paid"
+    },
+    {
+      "id": 2,
+      "duedate": "2021-12-03",
+      "name": "bruno da silva",
+      "amount": 1000,
+      "status": "late"
+    },
+    {
+      "id": 3,
+      "duedate": "2021-12-02",
+      "name": "renata gomes",
+      "amount": 1000,
+      "status": "late"
+    },
+    {
+      "id": 4,
+      "duedate": "2021-12-01",
+      "name": "monica garcia",
+      "amount": 1000,
+      "status": "overcome"
+    },
+    {
+      "id": 5,
+      "duedate": "2021-11-30",
+      "name": "garbriel torres",
+      "amount": 1000,
+      "status": "paid"
+    },
+    {
+      "id": 6,
+      "duedate": "2021-11-21",
+      "name": "leonardo costa",
+      "amount": 1000,
+      "status": "overcome"
+    },
+    {
+      "id": 7,
+      "duedate": "2021-11-12",
+      "name": "rafael perrechil",
+      "amount": 1000,
+      "status": "paid"
+    },
+    {
+      "id": 8,
+      "duedate": "2021-11-08",
+      "name": "leon carlos",
+      "amount": 1000,
+      "status": "paid"
+    },
+    {
+      "id": 9,
+      "duedate": "2021-11-01",
+      "name": "ricardo imakawa",
+      "amount": 1000,
+      "status": "paid"
+    }
+  ]
+}
