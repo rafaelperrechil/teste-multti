@@ -14,4 +14,4 @@ npm install
 npm start
 ```
 
-![Tela projeto](https://github.com/rafaelperrechil/teste-multti/blob/master/web/assets/tela.png?raw=true)
+![Tela projeto](https://github.com/rafaelperrechil/teste-multti/blob/main/web/public/assets/images/tela.png?raw=true)
