@@ -7,7 +7,7 @@ Na pasta do projeto:
 ```cmd
 cd api
 npm install -g json-server
-json-server --watch db.json --port 5000
+npm start
 cd..
 cd web
 npm install
